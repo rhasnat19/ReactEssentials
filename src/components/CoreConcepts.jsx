@@ -1,8 +1,8 @@
-import { CORE_CONCEPTS } from "../../data.js";
+import { CORE_CONCEPTS } from "../data.js";
 
-import CoreConcept from "../../components/CoreConcept.jsx";
+import CoreConcept from "./CoreConcept.jsx";
 
-export default function CoreConceptSection() {
+export default function CoreConcepts() {
   return (
     <section id="core-concepts">
       <h2>Time to get started!</h2>
